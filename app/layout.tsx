@@ -6,7 +6,6 @@ import {NextUIProvider} from "@nextui-org/react";
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/context/ThemeContext";
 
- 
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
