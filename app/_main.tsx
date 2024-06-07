@@ -12,7 +12,6 @@ const skillCardsData = [
     description: 'Provides a plugin to customize default themes, you can change all semantic tokens or create an entire new theme.',
     icon: (
       <svg
-        aria-hidden="true"
         fill="none"
         focusable="false"
         height="24"
@@ -24,15 +23,15 @@ const skillCardsData = [
         <path
           d="M3.5 20.5c.83.83 2.17.83 3 0l13-13c.83-.83.83-2.17 0-3-.83-.83-2.17-.83-3 0l-13 13c-.83.83-.83 2.17 0 3ZM18.01 8.99l-3-3"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
         ></path>
         <path
           d="M8.5 2.44 10 2l-.44 1.5L10 5l-1.5-.44L7 5l.44-1.5L7 2l1.5.44ZM4.5 8.44 6 8l-.44 1.5L6 11l-1.5-.44L3 11l.44-1.5L3 8l1.5.44ZM19.5 13.44 21 13l-.44 1.5L21 16l-1.5-.44L18 16l.44-1.5L18 13l1.5.44Z"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         ></path>
       </svg>
     ),
@@ -42,7 +41,6 @@ const skillCardsData = [
     description: 'Built on top of Tailwind CSS, which means no runtime styles, and no unnecessary classNamees in your bundle.',
     icon: (
       <svg
-        aria-hidden="true"
         fill="none"
         focusable="false"
         height="24"
@@ -54,10 +52,10 @@ const skillCardsData = [
         <path
           d="M6.09 13.28h3.09v7.2c0 1.68.91 2.02 2.02.76l7.57-8.6c.93-1.05.54-1.92-.87-1.92h-3.09v-7.2c0-1.68-.91-2.02-2.02-.76l-7.57 8.6c-.92 1.06-.53 1.92.87 1.92Z"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
-          stroke-width="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="1.5"
         ></path>
       </svg>
     ),
@@ -67,7 +65,6 @@ const skillCardsData = [
     description: 'Automatic dark mode recognition, NextUI automatically changes the theme when detects HTML theme prop changes.',
     icon: (
       <svg
-        aria-hidden="true"
         focusable="false"
         height="24"
         role="presentation"
@@ -87,7 +84,6 @@ const skillCardsData = [
     description: 'NextUI is fully-typed to minimize the learning curve, and provide the best possible developer experience.',
     icon: (
       <svg
-        aria-hidden="true"
         fill="none"
         focusable="false"
         height="24"
@@ -99,10 +95,10 @@ const skillCardsData = [
         <path
           d="M10 16.95H6.21c-3.37 0-4.21-.84-4.21-4.21v-6c0-3.37.84-4.21 4.21-4.21h6c3.37 0 4.21.84 4.21 4.21v.48M21.95 17.79c0 3.37-.84 4.21-4.21 4.21h-6c-3.37 0-4.21-.84-4.21-4.21v-6c0-3.37.84-4.21 4.21-4.21h6c3.37 0 4.21.84 4.21 4.21v6Z"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
-          stroke-width="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="1.5"
         ></path>
       </svg>
     ),

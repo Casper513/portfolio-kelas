@@ -14,8 +14,9 @@ interface BioCardProps {
   jenisKelamin: string;
   alamat: string;
   email: string;
-  fakultasProgramStudi: string;
-  posisi: string;
+  fakultas: string;
+  prodi: string;
+  status: string;
   hobi: string;
   keterampilan: string;
 }
@@ -26,8 +27,9 @@ const BioDataCard: React.FC<BioCardProps> = ({
   jenisKelamin,
   alamat,
   email,
-  fakultasProgramStudi,
-  posisi,
+  fakultas,
+  prodi,
+  status,
   hobi,
   keterampilan,
 }) => {
@@ -53,10 +55,13 @@ const BioDataCard: React.FC<BioCardProps> = ({
               <strong>Email:</strong> {email}
             </p>
             <p className="text-gray-500">
-              <strong>Fakultas dan Program Studi:</strong> {fakultasProgramStudi}
+              <strong>Fakultas:</strong> {fakultas}
             </p>
             <p className="text-gray-500">
-              <strong>Posisi:</strong> {posisi}
+              <strong>Prodi:</strong> {prodi}
+            </p>
+            <p className="text-gray-500">
+              <strong>Status:</strong> {status}
             </p>
             <p className="text-gray-500">
               <strong>Hobi:</strong> {hobi}

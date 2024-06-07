@@ -10,9 +10,13 @@ export default function RootLayout({
 }>) {
   return (
     <>
-          <NavBar/>
-          <SideBar/>
-          {children}
+      <NavBar/>
+      <SideBar/>
+      <div className="p-4 lg:ml-64 mt-14">
+        <div className="flex min-h-screen justify-center rounded bg-gray-50 dark:bg-gray-800">
+            {children}
+        </div>
+      </div>
     </>
 
 
