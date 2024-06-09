@@ -34,7 +34,7 @@ const OurSkill = () => {
                 <CardTitle>Blog Website</CardTitle>
                 <CardDescription>This website is made with HTML, CSS, JavaScript, and MySQL</CardDescription>
               </CardHeader>
-              <CardFooter className="absolute flex justify-end bottom-0 right-0 w-full p-4 bg-black bg-opacity-5 transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+              <CardFooter className="absolute flex justify-end bottom-0 left-0 w-full p-4 bg-black bg-opacity-5 transform translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
                 <Button>View</Button>
               </CardFooter>
             </CardContent>
