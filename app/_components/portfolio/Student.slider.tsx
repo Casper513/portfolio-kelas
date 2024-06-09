@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import BioDataCard from './BioData.card';
+import { Skeleton } from '@nextui-org/react';
 
 // Fungsi untuk mengambil data pengguna dari API
 const fetchUsers = async () => {
@@ -42,7 +43,17 @@ const Slider = () => {
     getUsers();
   }, []);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading){
+    return(
+      <div className="flex flex-col space-y-3">
+      <Skeleton className="h-[125px] w-[250px] rounded-xl" />
+      <div className="space-y-2">
+        <Skeleton className="h-4 w-[250px]" />
+        <Skeleton className="h-4 w-[200px]" />
+      </div>
+    </div>
+    )
+  }
   if (error) return <p>Error: {error}</p>;
 
   return (

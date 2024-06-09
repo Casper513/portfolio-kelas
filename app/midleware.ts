@@ -3,7 +3,7 @@ import type { NextRequest } from "next/server";
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://3000-idx-portfolio-class-1717289893786.cluster-bs35cdu5w5cuaxdfch3hqqt7zm.cloudworkstations.dev'
+  'https://3000-idx-portfolio-kelas-1717907447160.cluster-fu5knmr55rd44vy7k7pxk74ams.cloudworkstations.dev/'
   // Tambahkan asal lain yang diizinkan di sini
 ];
 

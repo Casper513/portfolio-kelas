@@ -2,7 +2,7 @@
 
 import React from "react";
 import SideBarItem from "./SideBarItem";
-import { Table, Users } from "lucide-react";
+import { Home, Table, Users } from "lucide-react";
 import useTrigger from "@/hooks/sidebar";
 import useMediaQuery from "@/hooks/mediaQuery"; // Pastikan path ini benar
 
@@ -21,14 +21,14 @@ const SideBar: React.FC = () => {
         >
           <div className="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
             <ul className="space-y-2 font-medium">
-              <SideBarItem href="#" icon={<Users />} label="Dashboard" />
+              <SideBarItem href="/pages/admin/dashboard" icon={<Home />} label="Dashboard" />
               <SideBarItem
                 href="#"
                 icon={<Users />}
                 label="User"
                 submenu={[
-                  { href: "admin/user/addUser", label: "Add" },
-                  { href: "admin/user/update", label: "Update" },
+                  { href: "/pages/admin/user/addUser", label: "Add" },
+                  { href: "/pages/admin/user/update", label: "Update" },
                 ]}
               />
               <SideBarItem href="#" icon={<Table />} label="Table" />
