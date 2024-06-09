@@ -34,7 +34,7 @@ const BioDataCard: React.FC<BioCardProps> = ({
   keterampilan,
 }) => {
   return (
-    <div className="flex items-center justify-start">
+    <div className="flex items-center justify-center lg:justify-start">
       <Card>
         <CardHeader className="px-auto">
           <CardTitle className="text-center">Bio Data</CardTitle>

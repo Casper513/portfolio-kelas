@@ -7,7 +7,7 @@ import {
   CardDescription,
 } from "@/components/ui/card";
 import Image from "next/image";
-import { Button } from "../../../components/ui/button";
+import { Button } from "@/components/ui/button";
 
 const OurSkill = () => {
   return (
@@ -17,7 +17,7 @@ const OurSkill = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="relative overflow-hidden group">
-          <Card>
+          <Card className="">
             <CardContent className="p-0">
               <CardHeader className="p-4">
                 <div className="relative w-full h-48">
