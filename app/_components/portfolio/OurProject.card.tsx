@@ -15,9 +15,9 @@ const OurSkill = () => {
       <div className="flex flex-col gap-2 items-center mb-20 justify-center w-full">
         <h1 className="tracking-tight inline font-semibold text-4xl lg:text-6xl">What we make?</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        <div className="relative overflow-hidden group">
-          <Card className="">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="relative overflow-hidden min-w-72 max-w-72 group">
+          <Card className="w-full h-full">
             <CardContent className="p-0">
               <CardHeader className="p-4">
                 <div className="relative w-full h-48">

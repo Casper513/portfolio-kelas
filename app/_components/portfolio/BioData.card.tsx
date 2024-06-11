@@ -35,11 +35,11 @@ const BioDataCard: React.FC<BioCardProps> = ({
 }) => {
   return (
     <div className="flex items-center justify-center lg:justify-start">
-      <Card>
+      <Card className='min-w-80 lg:w-96'>
         <CardHeader className="px-auto">
           <CardTitle className="text-center">Bio Data</CardTitle>
         </CardHeader>
-        <CardContent className='p-0 lg:p-6'>
+        <CardContent className='p-4 lg:p-6'>
           <div className="max-w-sm mx-auto my-4 p-6 shadow-white rounded-lg shadow-sm transform transition-transform duration-500 hover:scale-105">
             <h2 className="text-xl font-bold mb-2">{namaLengkap}</h2>
             <p className="text-gray-500">

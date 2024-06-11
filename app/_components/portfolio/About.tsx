@@ -1,16 +1,8 @@
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-} from "@/components/ui/card";
 import Image from "next/image";
 
 const About: React.FC = () => {
   return (
-    <section className="relative z-10 flex flex-col gap-6 w-full mt-24 lg:my-56">
+    <section className="relative z-10 flex flex-col gap-6 w-full mt-24 lg:my-20">
       <div className="flex flex-col gap-2 items-center mb-6 lg:mb-12 justify-center w-full">
         <h1 className="tracking-tight inline font-semibold text-4xl lg:text-6xl">About Us</h1>
       </div>

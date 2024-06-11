@@ -4,7 +4,7 @@ const Utama = () => {
   return (
     <section className="flex relative overflow-hidden lg:overflow-visible w-full flex-nowrap justify-between items-center h-[calc(100vh_-_64px)] 2xl:h-[calc(84vh_-_64px)]">
       <div className="flex relative z-20 flex-col gap-6 w-full lg:w-1/2 xl:mt-10">
-        <div className="text-center leading-8 md:leading-10 md:text-left">
+        <div className="text-center leading-8 lg:leading-10 lg:text-left">
           <div className="inline-block">
             <h1 className="tracking-tight inline font-semibold text-[2.5rem] lg:text-5xl">
               Make&nbsp;
@@ -17,10 +17,10 @@ const Utama = () => {
             you need with our experience.
           </h1>
         </div>
-        <h2 className="w-full md:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full text-center md:text-left">
+        <h2 className="w-full lg:w-1/2 my-2 text-lg lg:text-xl font-normal text-default-500 block max-w-full text-center lg:text-left">
           Beautiful, fast and modern website.
         </h2>
-        <div className="flex flex-col md:flex-row items-center gap-4">
+        <div className="flex flex-col md:flex-row justify-center lg:justify-start items-center gap-4">
           <Button>Get Started</Button>
         </div>
       </div>
