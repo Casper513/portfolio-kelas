@@ -107,7 +107,7 @@ const skillCardsData = [
   },
 ];
 
-const main = () => {
+const mainPage = () => {
   return (
     <>
         <div className='relative flex flex-col'>
@@ -134,4 +134,4 @@ const main = () => {
   )
 }
 
-export default main
+export default mainPage
