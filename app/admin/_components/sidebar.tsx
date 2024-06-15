@@ -37,6 +37,12 @@ const Sidebar = () => {
     []
   );
 
+  // if(defaultAccordionValue.length === 0){
+  //   return null
+  // }
+
+  console.log(defaultAccordionValue)
+
   return (
     <>
       <div className="text-xs font-medium flex items-center mb-4">
